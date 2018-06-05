@@ -56,10 +56,11 @@ Give an example
 Add additional notes about how to deploy this on a live system
 
 ## Built With
+* [Instagram](https://www.instagram.com/) - Instagram
+* [Foursquare](https://ru.foursquare.com/) - Foursquare 
+* [Instagram API](https://ru.foursquare.com/) 
+* [Foursquare API](https://github.com/mLewisLogic/foursquare) 
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
 ## Contributing
 
