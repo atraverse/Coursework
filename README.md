@@ -32,7 +32,19 @@ McDonalds
 Для використання даної реалізації потрібно запустити main.py та зайти на свій https://localhost . На localHost буде відкрите HTML з inputer-ами та з мапою, де потрібно буде вказати місто/радіус. Подалі буде обработка інформації та відкритя мапи з точками з обрбленою інформацією 
 
 ## Опис тестових прикладів для первірки працездатності програми
+```
+>>> Enter city: Kiev
+>>> Enter limits: 1
+McDonalds
 
+>>>Enter city: Lviv
+>>>Enter limits: 0
+None
+
+>>>Enter city: Lviv
+>>>Enter limits: 
+Error
+```
 
 
 ## Built With
