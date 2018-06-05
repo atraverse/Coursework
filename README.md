@@ -14,47 +14,26 @@ McDonalds
 ```
 Вхідні дані будуть прийматися в inputer в HTML файлів, а вихідні дані користувач отримує у вигляді мапи з поточково популярними місцями
 
-### Installing
+### Структура програми з коротким описом модулів,функцій, класів та методів.
+Програма скаладається з декільких модулів. 
+- Модуль для знаходження координат місць та створення мапи(потребує бібліотеку GeoPy та Folium)
+    - Функція для знаходження координат по назві
+    - Функція для створення та запису інформації на мапу 
+- Модуль для зчитування та запис інформації в JSON файл 
+    - Функція для отримання інформації, для створення запиту та запису в JSON файл
+- Основний модуль дослідження (імпортує усі модулі, Flask)
+    - Клас для отримання координат 
+    - Головний клас для знаходження та обробки основної інформації  
+    - Клас для створення мапи
+    - Клас для реалізації бібліотеки Flask
 
-A step by step series of examples that tell you how to get a development env running
+## Коротка інструкція по користуванню програмою
 
-Say what the step will be
+Для використання даної реалізації потрібно запустити main.py та зайти на свій https://localhost . На localHost буде відкрите HTML з inputer-ами та з мапою, де потрібно буде вказати місто/радіус. Подалі буде обработка інформації та відкритя мапи з точками з обрбленою інформацією 
 
-```
-Give the example
-```
+## Опис тестових прикладів для первірки працездатності програми
 
-And repeat
 
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 * [Instagram](https://www.instagram.com/) - Instagram
