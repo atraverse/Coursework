@@ -55,6 +55,6 @@ Error
 
 ## Authors
 
-* **Traverse Anastasia** - *Initial work* - [atraverse](https://github.com/atraverse)
+* **Traverse Anastasia** - [atraverse](https://github.com/atraverse)
 
 
